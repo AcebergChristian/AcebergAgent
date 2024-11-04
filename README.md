@@ -2,7 +2,8 @@
 Agent platform
 
 cd web
-npm start
+1.npm install
+2.npm start
 
 cd /
-python3 main.py
+1.python3 main.py
