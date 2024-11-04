@@ -1,0 +1,183 @@
+const i18n = {
+  'en-US': {
+    'confirm': 'confirm',
+    'cancel': 'cancel',
+    'delete': 'Delete',
+    'warn': 'Warn',
+
+    'indevelopment': 'In Development...',
+    'copysuccess': 'Copy Success !',
+    'needcontent': 'Please input content !',
+
+    'dash' : 'Dash',
+    'agent': 'Agent',
+    'known': 'Known',
+    'tools': 'Tools',
+
+    'create': 'Create',
+    'edit': 'Edit',
+    'update': 'Update',
+    
+    'agent.options': 'Agent Options',
+    'agent.create': 'Create Agent',
+    'agent.isswitch': 'Status',
+    'agent.sync': 'Sync Agent',
+    'agent.sync.desc': 'Sync Agent of Agents Folder',
+    'agent.modal.options':'Agent Options',
+    'agent.status.true': 'Agent Status True',
+    'agent.status.false': 'Agent Status False',
+
+
+    'menu.dashboard': 'Dashboard',
+    'menu.dashboard.workplace': 'Workplace',
+    'menu.user.info': 'User Info',
+    'menu.user.setting': 'User Setting',
+    'menu.user.switchRoles': 'Switch Roles',
+    'menu.user.role.admin': 'Admin',
+    'menu.user.role.user': 'General User',
+    'navbar.logout': 'Logout',
+    'settings.title': 'Settings',
+    'settings.themeColor': 'Theme Color',
+    'settings.content': 'Content Setting',
+    'settings.navbar': 'Navbar',
+    'settings.menuWidth': 'Menu Width (px)',
+    'settings.navbar.theme.toLight': 'Click to use light mode',
+    'settings.navbar.theme.toDark': 'Click to use dark mode',
+    'settings.menu': 'Menu',
+    'settings.footer': 'Footer',
+    'settings.otherSettings': 'Other Settings',
+    'settings.colorWeek': 'Color Week',
+    'settings.alertContent':
+      'After the configuration is only temporarily effective, if you want to really affect the project, click the "Copy Settings" button below and replace the configuration in settings.json.',
+    'settings.copySettings': 'Copy Settings',
+    'settings.copySettings.message':
+      'Copy succeeded, please paste to file src/settings.json.',
+    'settings.close': 'Close',
+    'settings.color.tooltip':
+      '10 gradient colors generated according to the theme color',
+    'message.tab.title.message': 'Message',
+    'message.tab.title.notice': 'Notice',
+    'message.tab.title.todo': 'ToDo',
+    'message.allRead': 'All Read',
+    'message.seeMore': 'SeeMore',
+    'message.empty': 'Empty',
+    'message.empty.tips': 'No Content',
+    'message.lang.tips': 'Language switch to ',
+    'navbar.search.placeholder': 'Please search',
+
+
+    'aisearch.menu' :'Menu',
+    'aisearch.search' :'Search',
+    'aisearch.reset' :'Reset',
+    'aisearch.drawer.aisearch':'AiSearch',
+    'aisearch.drawer.agents':'Agents',
+    'aisearch.drawer.usrcenter':'UserCenter',
+    'aisearch.drawer.exit':'Exit',
+
+    'usrcenter.save':'Save',
+    'usrcenter.reset':'Reset',
+    'usrcenter.account':'Account',
+    'usrcenter.password':'Password',
+    'usrcenter.path':'Path',
+    'usrcenter.key':'Key',
+    'usrcenter.role':'Role',
+
+    'aistudio.model':'Model',
+    'aistudio.temperature':'Tempurature',
+    'aistudio.maxtoken':'Max Token',
+    'aistudio.top_p':'Top_p',
+  },
+  'zh-CN': {
+    'confirm': '确认',
+    'cancel': '取消',
+    'delete': '删除',
+    'warn': '警告',
+
+    'indevelopment': '开发中',
+    'copysuccess': '复制成功',
+    'needcontent': '请输入内容',
+
+
+    'dash' : '仪表盘',
+    'agent': '智能体',
+    'known': '知识库',
+    'tools': '工具',
+
+    'create': '创建',
+    'edit': '编辑',
+    'update': '更新',
+
+
+    'agent.options': 'Agent配置',
+    'agent.create': '创建Agent',
+    'agent.isswitch': '状态',
+    'agent.sync': '同步Agent',
+    'agent.sync.desc': '同步Agents下的Agent配置',
+    'agent.modal.options':'Agent 配置',
+    'agent.status.true': '已启用',
+    'agent.status.false': '已禁用',
+
+
+    'menu.dashboard': '仪表盘',
+    'menu.dashboard.workplace': '工作台',
+    'menu.user.info': '用户信息',
+    'menu.user.setting': '用户设置',
+    'menu.user.switchRoles': '切换角色',
+    'menu.user.role.admin': '管理员',
+    'menu.user.role.user': '普通用户',
+    'navbar.logout': '退出登录',
+    'settings.title': '页面配置',
+    'settings.themeColor': '主题色',
+    'settings.content': '内容区域',
+    'settings.navbar': '导航栏',
+    'settings.menuWidth': '菜单宽度 (px)',
+    'settings.navbar.theme.toLight': '点击切换为亮色模式',
+    'settings.navbar.theme.toDark': '点击切换为暗黑模式',
+    'settings.menu': '菜单栏',
+    'settings.footer': '底部',
+    'settings.otherSettings': '其他设置',
+    'settings.colorWeek': '色弱模式',
+    'settings.alertContent':
+      '配置之后仅是临时生效，要想真正作用于项目，点击下方的 "复制配置" 按钮，将配置替换到 settings.json 中即可。',
+    'settings.copySettings': '复制配置',
+    'settings.copySettings.message':
+      '复制成功，请粘贴到 src/settings.json 文件中',
+    'settings.close': '关闭',
+    'settings.color.tooltip':
+      '根据主题颜色生成的 10 个梯度色（将配置复制到项目中，主题色才能对亮色 / 暗黑模式同时生效）',
+    'message.tab.title.message': '消息',
+    'message.tab.title.notice': '通知',
+    'message.tab.title.todo': '待办',
+    'message.allRead': '全部已读',
+    'message.seeMore': '查看更多',
+    'message.empty': '清空',
+    'message.empty.tips': '暂无内容',
+    'message.lang.tips': '语言切换至 ',
+    'navbar.search.placeholder': '输入内容查询',
+
+
+    'aisearch.menu' :'菜单',
+    'aisearch.search' :'搜索',
+    'aisearch.reset' :'重置',
+    'aisearch.drawer.aisearch':'Ai搜索',
+    'aisearch.drawer.agents':'智能体',
+    'aisearch.drawer.usrcenter':'个人中心',
+    'aisearch.drawer.exit':'退出',
+
+    'usrcenter.save':'保存',
+    'usrcenter.reset':'重置',
+    'usrcenter.account':'账户',
+    'usrcenter.password':'密码',
+    'usrcenter.path':'路径',
+    'usrcenter.key':'密钥',
+    'usrcenter.role':'角色',
+
+    'aistudio.model':'模型',
+    'aistudio.temperature':'温度',
+    'aistudio.maxtoken':'最大token',
+    'aistudio.top_p':'顶部抽样',
+
+  },
+};
+
+export default i18n;
