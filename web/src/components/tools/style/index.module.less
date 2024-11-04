@@ -1,0 +1,141 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg-1);
+}
+
+.tools_toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: 40px;
+  padding: 0 20px;
+  background-color: var(--color-bg-2);
+  border-bottom: 1px solid var(--color-border-1);
+}
+
+.tools_toolbar_tag {
+  position: absolute;
+  right: 10px;
+  width: 500px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 10px;
+  padding: 0 10px;
+  overflow-x: scroll;
+  // 不显示滚动条
+}
+
+.tools_toolbar_tag::-webkit-scrollbar {
+  display: none;
+}
+
+.tools_content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 4px;
+  width: 100%;
+  height: calc(100% - 60px);
+  padding: 10px;
+}
+
+.tools_content_item {
+  width: calc(100% / 4 - 20px);
+  height: 160px;
+  font-size: 12px;
+  background-color: var(--color-bg-2);
+  border-radius: 8px;
+  margin: 0 10px 10px 0;
+  padding: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    transform: scale(1.02);
+  }
+  border: 1px solid var(--color-border-1);
+}
+
+.tools_content_item_top {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  width: 100%;
+  height: 40%;
+}
+
+.tools_content_item_top_icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: rgb(var(--arcoblue-6));
+  color: #fff;
+}
+
+.tools_content_item_mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 0;
+  width: 100%;
+  height: 20%;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-1);
+}
+
+.tools_content_item_bottom {
+  text-align: center;
+  width: 100%;
+  height: 30%;
+  line-height: 20px;
+  color: var(--color-text-3);
+  font-size: 12px;
+  overflow: hidden;
+}
+
+
+.tools_drawer_desc {
+  font-size: 12px;
+  color: var(--color-text-3);
+}
+
+.tools_drawer_footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tools_drawer_footer div button {
+  margin: 0 10px;
+}
+
+.tools_testres {
+  width: 100%;
+  height: 120px;
+  color:rgb(var(--gray-7));
+  font-size: 12px;
+}
+
+.tools_testres span{
+  color: var(--color-text-1);
+}

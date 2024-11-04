@@ -1,0 +1,114 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-neutral-2);
+}
+
+.agent_top {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: 40px;
+  background-color: var(--color-bg-1);
+}
+
+.agent_top button{
+  margin-left: 16px;
+}
+
+.agent_top_title {
+  color: var(--color-text-1);
+}
+
+.agent_content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin: 40px 4% 0 0;
+  padding: 0 4% 0 4%;
+  width: 92%;
+  height: calc(100% - 116px);
+  overflow-y: scroll;
+}
+
+.agent_content_chat_welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  width: 100%;
+  min-height: 50px;
+  color: var(--color-text-1);
+  background-color: var(--color-bg-1);
+  border-radius: 4px;
+}
+
+.everychat_bot {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 6px;
+  gap: 8px;
+}
+
+.everychat_usr {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 6px;
+  gap: 6px;
+}
+
+
+.everychat_content {
+  padding: 6px 10px 6px 10px;
+  border-radius: 4px;
+  text-align: left;
+  word-wrap: break-word; /* 确保长单词或URL会在必要时换行 */  
+}
+
+.everychat_content_bot{
+  background-color: #ffffff;
+  max-width: 60%;
+}
+
+.everychat_content_usr{
+  background-color: #98ea70;
+  max-width: 50%;
+}
+
+.agent_input {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.agent_input div{
+  width: calc( 100% - 130px);
+}
+
+.agent_footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  color: var(--color-text-3);
+}
